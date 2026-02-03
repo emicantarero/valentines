@@ -24,7 +24,7 @@ export default function App() {
       <main className="z-10 w-full max-w-lg text-center bg-white/40 backdrop-blur-lg border border-white/20 p-8 rounded-[3rem] shadow-2xl">
         
         <h1 className="text-4xl md:text-5xl font-black text-rose-600 mb-8 drop-shadow-md leading-tight">
-          {accepted ? "¡Yo sabía que si queríassss! 💖" : "¿Querés ser mi San Valentín?"}
+          {accepted ? "¡Yo sabía que si queríassss! 💖" : "¿Querés ser mi San Valentín juquita?"}
         </h1>
 
         <div className="relative mx-auto mb-10 w-64 h-64 md:w-80 md:h-80">
@@ -45,7 +45,7 @@ export default function App() {
               onClick={() => setAccepted(true)}
               className="w-full sm:w-auto px-12 py-5 bg-rose-500 hover:bg-rose-600 text-white rounded-3xl text-2xl font-black shadow-[0_10px_20px_rgba(244,63,94,0.3)] transition-all active:scale-90"
             >
-              ¡SÍ! 🫶
+              Sí mor🫶
             </button>
 
             {/* BOTÓN NO: Versión estática inicial */}
@@ -55,7 +55,7 @@ export default function App() {
                 onClick={moveNoButton}
                 className="w-full sm:w-auto px-8 py-4 bg-white/80 text-rose-400 rounded-3xl text-xl font-bold border-2 border-rose-200"
               >
-                No 🖕
+                No feo 🖕
               </button>
             )}
           </div>
